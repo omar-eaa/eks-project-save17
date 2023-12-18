@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/kontakt.css">
+    <title>📞 Kontakt page</title>
+</head>
+<body>
+
+    
+
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html">
+                <img class="logo-img" src="../img/trøjborgbryg-white.png" alt="">
+            </a>
+        </div>
+        <div class="nav-text">
+            <ul>
+                <li><a href="./produkt.html">Produkter</a></li>
+                <li><a href="./trøjborbryg.html">TrøjborBryg</a></li>
+                <li><a href="./indkøbskurv.html">Inkøbskurv</a></li>
+                <li><a href="#">Kontakt</a></li>
+              </ul>
+        </div>
+        
+        <div class="toggle" onclick="toggle()"></div>
+      </header>
+
+
+      <section class="contact-page-sec">
+        <div class="container">
+          <div class="row">
+            <article class="col-md-4">
+              <div class="contact-info">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-map-marked"></i>
+                  </div>
+                  <div class="contact-info-text">
+                    <h2>Address</h2>
+                    <span>Tordenskjoldsgade </span>
+                    <span>8210, Aarhus</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+      
+            <article class="col-md-4">
+              <div class="contact-info">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-info-text">
+                    <h2>E-mail</h2>
+                    <span>info@LoremIpsum.com</span>
+                    <span>yourmail@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+      
+            <article class="col-md-4">
+              <div class="contact-info">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <div class="contact-info-text">
+                    <h2>Phone Number</h2>
+                    <span>45+80808080</span>
+                    <!-- <span>Thu - Mon 10.00 pm - 5.00 pm</span> -->
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+      
+          <div class="row">
+            <section class="col-md-8">
+              <div class="contact-page-form" method="post">
+                <h2>Kontakt os</h2>
+                <form action="contact-mail.php" method="post">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <div class="single-input-field">
+                        <input type="text" placeholder="Navn" name="navn" />
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <div class="single-input-field">
+                        <input type="email" placeholder="E-mail" name="email" required />
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <div class="single-input-field">
+                        <input type="text" placeholder="Telefon Nummer" name="telefon" />
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                      <div class="single-input-field">
+                        <input type="text" placeholder="Emne" name="Emne" />
+                      </div>
+                    </div>
+                    <div class="col-md-12 message-input">
+                      <div class="single-input-field">
+                        <textarea placeholder="Skriv din Besked" name="Besked"></textarea>
+                      </div>
+                    </div>
+                    <div class="single-input-fieldsbtn">
+                      <input type="submit" value="Send Nu" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+    
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
